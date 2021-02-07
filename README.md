@@ -4,10 +4,10 @@
 
 ### Considerations
 
-* Deployment
-* Data Access(Database)
-* Profiling apps
-* Logging
-* Monitoring
-* Authentication
+* Deployment(CI/CD): `tekton`
+* Data Access(Database): `mariadb`
+* Profiling apps: `ConfigMap`
+* Logging: `elasticsearch`, `fluentd`
+* Monitoring: `kubernetes-dashboard`, `istio-metrics`
+* Authentication: `dex` with `LDAP`
 * Authorization
